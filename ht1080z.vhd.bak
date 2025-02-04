@@ -47,7 +47,7 @@ library mist;
 use mist.mist.ALL;
 
 entity ht1080z is
-    Port ( CLOCK_50 : in  STD_LOGIC;
+    Port ( CLOCK_27 : in  STD_LOGIC;
 	 
 		 -- SDRAM
 		  SDRAM_nCS : out std_logic;                     -- Chip Select
@@ -223,7 +223,7 @@ begin
   -- generate system clocks 
   clkmgr : entity work.pll
    port map (
-	  inclk0 => CLOCK_50,
+	  inclk0 => CLOCK_27,
 	  c0 => clk42m,
 	  locked => pllLocked
 	); 

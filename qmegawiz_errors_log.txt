@@ -1,0 +1,10 @@
+
+
+F:/POSEIDON-2025/ht1080z-master/pll.vhd
+
+Feb 04 05PM:32:57>: Error in CNX file format.
+
+Error messages are listed in file
+F:/POSEIDON-2025/ht1080z-master/pll.cnxerr.
+
+Can't create the custom megafunction variation file(s)
