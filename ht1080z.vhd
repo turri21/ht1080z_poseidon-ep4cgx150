@@ -228,7 +228,7 @@ begin
 	  locked => pllLocked
 	); 
 
-	SDRAM_CLK <= clk42m;
+	SDRAM_CLK <= not clk42m; -- Poseidon: If not negated it won't boot properly to "READY?" and it will be stuck at "@@@@@@@@@@@@@" symbols screen.
 
   process(clk42m)
   begin
