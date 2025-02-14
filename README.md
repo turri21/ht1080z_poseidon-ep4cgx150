@@ -1,6 +1,6 @@
 -=(Poseidon Notes)=-
 
-Requirements: HT1080Z.ROM must be placed at the root of the SD card.
+Requirements: [HT1080Z.ROM](http://joco.homeserver.hu/fpga/download/HT1080Z.ROM) must be placed at the root of the SD card.
 
 Both required to synthesize the core: [mist-modules](https://github.com/mist-devel/mist-modules/tree/39a233f968fcef92c7389fb4dab42acc9c81c439), [T80](https://github.com/mist-devel/T80/tree/f7f776b54d67dcd6b19d3b97027dfbc6db6f14f4)
 
