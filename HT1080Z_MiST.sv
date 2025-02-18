@@ -169,7 +169,7 @@ assign SDRAM2_nWE = 1;
 
 localparam CONF_STR = {
 	"HT1080Z;;",
-	"F1,CAS,Load PAC;",
+	"F1,CAS,Load Cassette;",
 	`SEP
 	"O2,Video,PAL,NTSC;",
 `ifndef USE_EXPANSION
